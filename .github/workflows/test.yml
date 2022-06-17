@@ -1,8 +1,5 @@
 name: Test Workflow
-
-on:
-  push:
-
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
